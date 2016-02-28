@@ -1,0 +1,21 @@
+package main.java;
+
+public class Greeting {
+	
+	private int number;
+	private String message;
+	
+	public Greeting(int number, String message) {
+		this.number = number;
+		this.message = message;
+	}
+
+	public int getNumber() {
+		return number;
+	}
+
+	public String getMessage() {
+		return message;
+	}
+
+}
